@@ -4,12 +4,12 @@ javascript Quiz Game with Local Storage of Scores
 
 Hosted App:
 
-(insert link)
+https://s3793758.github.io/HW04-Javascrip-Code-Quiz/
 
-Description
+##Description
 This is a simple one page web app built to run a quiz, including a timer and score tracking and storage in Local memory. It has been built to be fully responsive, with clean HTML and multiple JS Functions to handle logic.
 
-Table of Contents (Optional)
+##Table of Contents (Optional)
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
 Installation
