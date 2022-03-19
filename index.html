@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Quiz</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- defer to load after the body -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- main control of the application -->
+    <div class="container">
+      <!-- top right and left  -->
+      <h3 id="score-heading">HighScore: <span id="score"></span></h3>
+      <!-- Displaying question -->
+      <div id="question-container" class="hide">
+        <h3 id="timer">Time:</h3>
+        <div id="questions">Questions</div>
+
+        <!-- display option of answers -->
+        <div id="answer-buttons" class="btn-grid"></div>
+      </div>
+      <!-- display option of answers -->
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="high-Score-btn" class="high-Score-btn btn">
+          HighScore
+        </button>
+        <button id="Restart-Quiz-btn" class="Restart-Quiz-btn btn">
+          Re-start
+        </button>
+        <button id="next-btn" class="next-btn btn hide">next</button>
+      </div>
+    </div>
+  </body>
+</html>

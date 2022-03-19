@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --neutral: grey;
+  --wrong: red;
+  --correct: green;
+  --white-color: white;
+  --bttn-color: purple;
+  --black: black;
+}
+
+body {
+  color: var(--neutral);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
+}
+
+.correct {
+  color: var(--correct);
+}
+
+.wrong {
+  color: var(--wrong);
+}
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  background-color: var(--white-color);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+}
+
+.score,
+.timer {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+  /* added margin see video */
+}
+
+.btn {
+  border: 1px solid var(--neutral);
+  background-color: var(--bttn-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: var(--white-color);
+  outline: none;
+}
+
+.btn:hover {
+  border-color: var(--neutral);
+}
+
+.btn.correct {
+  --hue: var(--correct);
+  color: var(--black);
+}
+
+.btn.wrong {
+  --hue: var(--wrong);
+}
+
+.start-btn,
+.next-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: var(--white-color);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
