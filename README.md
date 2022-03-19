@@ -1,5 +1,5 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-# HW04-Javascrip-Code-Quiz
+# # Unit 04: Web APIs 
 JS Quiz Game
 javascript Quiz Game with Local Storage of Scores
 
@@ -18,7 +18,7 @@ This is a simple one page web app built to run a quiz, including a timer and sco
 
 ![wrong](https://user-images.githubusercontent.com/58293386/159126679-1e749f1c-e29c-482d-aac7-88c9c40c575b.png)
 
-# Unit 04: Web APIs
+
 
 ## Overview:
 
