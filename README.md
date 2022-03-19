@@ -9,6 +9,14 @@ https://s3793758.github.io/HW04-Javascrip-Code-Quiz/
 **Description**
 This is a simple one page web app built to run a quiz, including a timer and score tracking and storage in Local memory. It has been built to be fully responsive, with clean HTML and multiple JS Functions to handle logic.
 
+![Screenshot 2022-03-20 020325](https://user-images.githubusercontent.com/58293386/159126660-ebf9adff-eb53-4e47-9162-69f18dd9f0d3.png)
+
+![question](https://user-images.githubusercontent.com/58293386/159126668-e45e92cf-f810-43c2-a6c9-68a3de44828f.png)
+
+![answer](https://user-images.githubusercontent.com/58293386/159126672-83d5980d-010a-4d74-ac5e-37a07b5c5022.png)
+
+![wrong](https://user-images.githubusercontent.com/58293386/159126679-1e749f1c-e29c-482d-aac7-88c9c40c575b.png)
+
 **Table of Contents** (Optional)
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
